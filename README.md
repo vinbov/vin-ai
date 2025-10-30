@@ -1,32 +1,34 @@
-# 🍷 Vin-AI - Intelligent Wine Assistant
+# 🚀 Vin-AI - Intelligent Assistant
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**Un assistente AI intelligente per il mondo del vino - analisi, raccomandazioni e gestione documenti!**
+**Un assistente AI intelligente e versatile - chatbot, analisi documenti e gestione AI con interfaccia user-friendly!**
 
 ## 🎯 Panoramica
 
-Vin-AI è una piattaforma web intuitiva che permette agli appassionati di vino e professionisti del settore di:
+Vin-AI è una piattaforma web intuitiva che permette a chiunque di utilizzare AI avanzate senza competenze tecniche:
 
-- 🍇 **Chatbot specializzato nel vino** con conoscenze enologiche avanzate
-- 📄 **Analisi documenti vinicoli** (schede tecniche, note di degustazione, certificazioni)
-- 🔍 **Ricerca intelligente** in database di vini e cantine
-- ⚙️ **Configurare provider AI** multipli (OpenAI, Google Gemini, Anthropic)
-- 📊 **Analytics e reporting** per cantine e distributori
+- 🤖 **Chatbot intelligente** personalizzabile con diversi template
+- 📄 **Analisi documenti** automatica (PDF, DOCX, TXT, MD, CSV)
+- 🔍 **Ricerca intelligente** e elaborazione testi
+- ⚙️ **Multi-provider AI** (OpenAI, Google Gemini, Anthropic Claude, Mistral)
+- 📊 **Analytics e monitoring** delle conversazioni
+- 🎨 **Interface user-friendly** senza necessità di programmazione
 
-### 🤖 Assistente Vino Intelligente
-- Consigli personalizzati sui vini
-- Analisi di abbinamenti cibo-vino
-- Informazioni su regioni vinicole e vitigni
-- Supporto per sommelier e wine lover
+### 🤖 Assistente Intelligente
+- Template personalizzabili per diversi use case
+- Conversazioni naturali con memoria di contesto
+- Supporto per domande complesse e analisi
+- Cronologia e gestione delle chat
 
-### 📄 Gestione Documenti Vinicoli
-- Upload di schede tecniche, certificazioni, etichette
+### 📄 Gestione Documenti
+- Upload multiplo di file in vari formati
 - Analisi automatica con AI specializzata
-- Estrazione di dati chiave (annata, gradazione, note)
+- Estrazione di informazioni chiave
 - Organizzazione intelligente della documentazione
+- Export e condivisione risultati
 
 ## 🚀 Avvio Rapido
 
@@ -57,20 +59,20 @@ streamlit run streamlit_app.py
 
 ## 🎮 Come Usare
 
-### 1. 🍷 Chat Vino
-- Seleziona "Chat Vino" dalla sidebar
-- Fai domande sui vini, abbinamenti, regioni
-- L'AI risponderà con expertise enologica
+### 1. 💬 Chat AI
+- Seleziona "Chat" dalla sidebar
+- Scegli un template o crea conversazioni personalizzate
+- L'AI risponderà con intelligenza avanzata
 
 ### 2. 📑 Analisi Documenti
 - Vai su "Analisi Documenti"
-- Carica schede tecniche, etichette, certificazioni
+- Carica i tuoi file (PDF, Word, etc.)
 - Visualizza l'analisi AI automatica
 
 ### 3. ⚙️ Configurazione
 - Imposta le tue API keys nei Settings
 - Scegli il provider AI preferito
-- Personalizza le impostazioni
+- Personalizza template e comportamenti
 
 ## 📁 Struttura Progetto
 
@@ -87,7 +89,7 @@ vin-ai/
 ## 🔧 Tecnologie
 
 - **Frontend**: Streamlit (Python web framework)
-- **AI Providers**: OpenAI GPT, Google Gemini, Anthropic Claude
+- **AI Providers**: OpenAI GPT, Google Gemini, Anthropic Claude, Mistral AI
 - **Document Processing**: PyPDF2, python-docx, pandas
 - **Visualizations**: Plotly, matplotlib
 - **Data**: JSON, CSV, pickle
@@ -112,4 +114,4 @@ Per domande o supporto:
 
 ---
 
-**Creato con 🍷 per gli amanti del vino e la tecnologia AI**
+**Creato con 🚀 per democratizzare l'accesso all'AI**
