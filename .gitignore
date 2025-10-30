@@ -64,14 +64,14 @@ temp/
 ehthumbs.db
 Thumbs.db
 
-# Data files (exclude large demo files if any)
+# Data files (exclude large uploads)
 *.csv
 *.xlsx
 *.pdf
 *.docx
 *.doc
 
-# But include example/demo data
+# But include demo data
 !demo_data.py
 !docs/examples/
 !templates/
